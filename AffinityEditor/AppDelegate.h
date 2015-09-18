@@ -11,7 +11,15 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 {
     IBOutlet NSTableView* AffinityList;
+    NSData* data;
+    IBOutlet NSArrayController *arrayController;
+    IBOutlet NSTableView *theTable;
 }
+@property (assign) IBOutlet NSArrayController *arrayController;
+@property (assign) IBOutlet NSTableView *theTable;
+
+- (void) populateTable;
 @property (assign) IBOutlet NSWindow *window;
+- (IBAction)openFile:(id)sender;
 
 @end

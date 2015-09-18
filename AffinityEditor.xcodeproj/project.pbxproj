@@ -452,6 +452,7 @@
 				E9D64F8A1BAC04E60060497A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9D64F8B1BAC04E60060497A /* Build configuration list for PBXNativeTarget "AffinityEditorTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +461,7 @@
 				E9D64F8D1BAC04E60060497A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
