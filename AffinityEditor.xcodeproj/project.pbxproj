@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9D64F5B1BAC04E40060497A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D64F5A1BAC04E40060497A /* Cocoa.framework */; };
+		E9D64F651BAC04E40060497A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9D64F631BAC04E40060497A /* InfoPlist.strings */; };
+		E9D64F671BAC04E40060497A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D64F661BAC04E40060497A /* main.m */; };
+		E9D64F6B1BAC04E50060497A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E9D64F691BAC04E50060497A /* Credits.rtf */; };
+		E9D64F6E1BAC04E50060497A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D64F6D1BAC04E50060497A /* AppDelegate.m */; };
+		E9D64F711BAC04E50060497A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9D64F6F1BAC04E50060497A /* MainMenu.xib */; };
+		E9D64F791BAC04E60060497A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D64F781BAC04E60060497A /* SenTestingKit.framework */; };
+		E9D64F7A1BAC04E60060497A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D64F5A1BAC04E40060497A /* Cocoa.framework */; };
+		E9D64F821BAC04E60060497A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9D64F801BAC04E60060497A /* InfoPlist.strings */; };
+		E9D64F851BAC04E60060497A /* AffinityEditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D64F841BAC04E60060497A /* AffinityEditorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9D64F7B1BAC04E60060497A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9D64F4F1BAC04E40060497A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9D64F561BAC04E40060497A;
+			remoteInfo = AffinityEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9D64F571BAC04E40060497A /* AffinityEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AffinityEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D64F5A1BAC04E40060497A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E9D64F5D1BAC04E40060497A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E9D64F5E1BAC04E40060497A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E9D64F5F1BAC04E40060497A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9D64F621BAC04E40060497A /* AffinityEditor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AffinityEditor-Info.plist"; sourceTree = "<group>"; };
+		E9D64F641BAC04E40060497A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9D64F661BAC04E40060497A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9D64F681BAC04E40060497A /* AffinityEditor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AffinityEditor-Prefix.pch"; sourceTree = "<group>"; };
+		E9D64F6A1BAC04E50060497A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E9D64F6C1BAC04E50060497A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9D64F6D1BAC04E50060497A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9D64F701BAC04E50060497A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E9D64F771BAC04E60060497A /* AffinityEditorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffinityEditorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D64F781BAC04E60060497A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E9D64F7F1BAC04E60060497A /* AffinityEditorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AffinityEditorTests-Info.plist"; sourceTree = "<group>"; };
+		E9D64F811BAC04E60060497A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9D64F831BAC04E60060497A /* AffinityEditorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AffinityEditorTests.h; sourceTree = "<group>"; };
+		E9D64F841BAC04E60060497A /* AffinityEditorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AffinityEditorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9D64F541BAC04E40060497A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D64F5B1BAC04E40060497A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D64F731BAC04E60060497A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D64F791BAC04E60060497A /* SenTestingKit.framework in Frameworks */,
+				E9D64F7A1BAC04E60060497A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9D64F4E1BAC04E40060497A = {
+			isa = PBXGroup;
+			children = (
+				E9D64F601BAC04E40060497A /* AffinityEditor */,
+				E9D64F7D1BAC04E60060497A /* AffinityEditorTests */,
+				E9D64F591BAC04E40060497A /* Frameworks */,
+				E9D64F581BAC04E40060497A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9D64F581BAC04E40060497A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9D64F571BAC04E40060497A /* AffinityEditor.app */,
+				E9D64F771BAC04E60060497A /* AffinityEditorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9D64F591BAC04E40060497A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9D64F5A1BAC04E40060497A /* Cocoa.framework */,
+				E9D64F781BAC04E60060497A /* SenTestingKit.framework */,
+				E9D64F5C1BAC04E40060497A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9D64F5C1BAC04E40060497A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9D64F5D1BAC04E40060497A /* AppKit.framework */,
+				E9D64F5E1BAC04E40060497A /* CoreData.framework */,
+				E9D64F5F1BAC04E40060497A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E9D64F601BAC04E40060497A /* AffinityEditor */ = {
+			isa = PBXGroup;
+			children = (
+				E9D64F6C1BAC04E50060497A /* AppDelegate.h */,
+				E9D64F6D1BAC04E50060497A /* AppDelegate.m */,
+				E9D64F6F1BAC04E50060497A /* MainMenu.xib */,
+				E9D64F611BAC04E40060497A /* Supporting Files */,
+			);
+			path = AffinityEditor;
+			sourceTree = "<group>";
+		};
+		E9D64F611BAC04E40060497A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9D64F621BAC04E40060497A /* AffinityEditor-Info.plist */,
+				E9D64F631BAC04E40060497A /* InfoPlist.strings */,
+				E9D64F661BAC04E40060497A /* main.m */,
+				E9D64F681BAC04E40060497A /* AffinityEditor-Prefix.pch */,
+				E9D64F691BAC04E50060497A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9D64F7D1BAC04E60060497A /* AffinityEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9D64F831BAC04E60060497A /* AffinityEditorTests.h */,
+				E9D64F841BAC04E60060497A /* AffinityEditorTests.m */,
+				E9D64F7E1BAC04E60060497A /* Supporting Files */,
+			);
+			path = AffinityEditorTests;
+			sourceTree = "<group>";
+		};
+		E9D64F7E1BAC04E60060497A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9D64F7F1BAC04E60060497A /* AffinityEditorTests-Info.plist */,
+				E9D64F801BAC04E60060497A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9D64F561BAC04E40060497A /* AffinityEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D64F881BAC04E60060497A /* Build configuration list for PBXNativeTarget "AffinityEditor" */;
+			buildPhases = (
+				E9D64F531BAC04E40060497A /* Sources */,
+				E9D64F541BAC04E40060497A /* Frameworks */,
+				E9D64F551BAC04E40060497A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AffinityEditor;
+			productName = AffinityEditor;
+			productReference = E9D64F571BAC04E40060497A /* AffinityEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9D64F761BAC04E60060497A /* AffinityEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D64F8B1BAC04E60060497A /* Build configuration list for PBXNativeTarget "AffinityEditorTests" */;
+			buildPhases = (
+				E9D64F721BAC04E60060497A /* Sources */,
+				E9D64F731BAC04E60060497A /* Frameworks */,
+				E9D64F741BAC04E60060497A /* Resources */,
+				E9D64F751BAC04E60060497A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9D64F7C1BAC04E60060497A /* PBXTargetDependency */,
+			);
+			name = AffinityEditorTests;
+			productName = AffinityEditorTests;
+			productReference = E9D64F771BAC04E60060497A /* AffinityEditorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9D64F4F1BAC04E40060497A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = LaughungMan;
+			};
+			buildConfigurationList = E9D64F521BAC04E40060497A /* Build configuration list for PBXProject "AffinityEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9D64F4E1BAC04E40060497A;
+			productRefGroup = E9D64F581BAC04E40060497A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9D64F561BAC04E40060497A /* AffinityEditor */,
+				E9D64F761BAC04E60060497A /* AffinityEditorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9D64F551BAC04E40060497A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D64F651BAC04E40060497A /* InfoPlist.strings in Resources */,
+				E9D64F6B1BAC04E50060497A /* Credits.rtf in Resources */,
+				E9D64F711BAC04E50060497A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D64F741BAC04E60060497A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D64F821BAC04E60060497A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E9D64F751BAC04E60060497A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9D64F531BAC04E40060497A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D64F671BAC04E40060497A /* main.m in Sources */,
+				E9D64F6E1BAC04E50060497A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D64F721BAC04E60060497A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D64F851BAC04E60060497A /* AffinityEditorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9D64F7C1BAC04E60060497A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9D64F561BAC04E40060497A /* AffinityEditor */;
+			targetProxy = E9D64F7B1BAC04E60060497A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9D64F631BAC04E40060497A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D64F641BAC04E40060497A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9D64F691BAC04E50060497A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D64F6A1BAC04E50060497A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E9D64F6F1BAC04E50060497A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D64F701BAC04E50060497A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E9D64F801BAC04E60060497A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D64F811BAC04E60060497A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9D64F861BAC04E60060497A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E9D64F871BAC04E60060497A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E9D64F891BAC04E60060497A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AffinityEditor/AffinityEditor-Prefix.pch";
+				INFOPLIST_FILE = "AffinityEditor/AffinityEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9D64F8A1BAC04E60060497A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AffinityEditor/AffinityEditor-Prefix.pch";
+				INFOPLIST_FILE = "AffinityEditor/AffinityEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E9D64F8C1BAC04E60060497A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AffinityEditor.app/Contents/MacOS/AffinityEditor";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AffinityEditor/AffinityEditor-Prefix.pch";
+				INFOPLIST_FILE = "AffinityEditorTests/AffinityEditorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E9D64F8D1BAC04E60060497A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AffinityEditor.app/Contents/MacOS/AffinityEditor";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AffinityEditor/AffinityEditor-Prefix.pch";
+				INFOPLIST_FILE = "AffinityEditorTests/AffinityEditorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9D64F521BAC04E40060497A /* Build configuration list for PBXProject "AffinityEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D64F861BAC04E60060497A /* Debug */,
+				E9D64F871BAC04E60060497A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D64F881BAC04E60060497A /* Build configuration list for PBXNativeTarget "AffinityEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D64F891BAC04E60060497A /* Debug */,
+				E9D64F8A1BAC04E60060497A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9D64F8B1BAC04E60060497A /* Build configuration list for PBXNativeTarget "AffinityEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D64F8C1BAC04E60060497A /* Debug */,
+				E9D64F8D1BAC04E60060497A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9D64F4F1BAC04E40060497A /* Project object */;
+}

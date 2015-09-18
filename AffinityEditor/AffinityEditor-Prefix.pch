@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'AffinityEditor' target in the 'AffinityEditor' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
